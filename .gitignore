@@ -1,8 +1,7 @@
-﻿*.pyc
+*.pyc
 *.vscode*
 .project
 .pydevproject
 .idea
 .DS_Store
-PaaS_Behave/features/dse_test.feature
-uat2/screenshots
+screenshots
