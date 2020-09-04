@@ -38,15 +38,15 @@ uat2
  ┣ features             用于存放测试用例脚本与'步骤'文件(behave 需要调用结构)
  ┃ ┣ steps              用于存放'步骤'文件
  ┃ ┃ ┣ common_step.py   通用步骤(不建议修改)
- ┃ ┃ ┗ (name)_step.py     通过initial.py生成,用于编写APP相关专用步骤
+ ┃ ┃ ┗ (name)_step.py   通过initial.py生成,用于编写APP相关专用步骤
  ┃ ┃
  ┃ ┣ test_cases         测试用例脚本
- ┃ ┃ ┗ (name).feature     用户自行添加 gherkin 脚本
+ ┃ ┃ ┗ (name).feature   用户自行添加 gherkin 脚本
  ┃ ┃
  ┃ ┗ environment.py     behave框架需要, 测试初始化等代码(不建议修改)
  ┃
  ┣ page_objects         page object model设计模式
- ┃ ┣ (name)               通过initial.py生成
+ ┃ ┣ (name)             通过initial.py生成
  ┃ ┃ ┣ locators.py      通过initial.py生成, 用于定义各个页面元素以及定位方式
  ┃ ┃ ┣ pages.py         通过initial.py生成, 用于定义各个页面的page_object
  ┃ ┃ ┗ __init__.py      通过initial.py生成，用于定义page_creator，page类别名相关
